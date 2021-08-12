@@ -4,32 +4,163 @@
     <meta charset="UTF-8">
     <title>Lzx</title>
     <style type="text/css">
+        @font-face {
+            font-family: "pixel";
+            src: url("joystix monospace.ttf");
+        }
         body {
-            background-color: #e7c9a2;
-            margin-left: 20%;
-            margin-right: 20%;
+            background-color: #1c2141;
+            /*margin-left: 20%;*/
+            /*margin-right: 20%;*/
             border: 2px dotted black;
             padding: 10px 10px 10px 10px;
             font-family: sans-serif;
+            /*font-family: DauphinPlain;*/
         }
+        h2 {
+            /*font-family: DauphinPlain;*/
+        }
+        main {
+            font-family: pixel, Consolas, sans-serif;
+            text-align: center;
+            /*alignment: center;*/
+            /*width: calc(50vh);*/
+            width: 70%;
+            margin: auto;
+            color: white;
+            background-image: url("Background.jpg");
+            overflow: hidden;
+            height: 400px;
+        }
+        p.test {
+            border-color: black;
+            border-width: 3px;
+            border-style: solid;
+            /*background-color: #a7cece;*/
+            padding: 25px;
+            margin: 20px;
+            /*background-image: url("Profile_photo.jpg");*/
+            /*background-repeat: repeat-y;*/
+            /*background-position: top left;*/
+        }
+        div.profile {
+            border-color: black;
+            border-width: 1px;
+            border-style: solid;
+            /*background-color: #a7cece;*/
+            text-align: center;
+        }
+        #profile {
+            /*float: right;*/
+            width: 100px;
+        }
+        footer {
+            font-family: Consolas, sans-serif;
+            /*border: dashed bisque;*/
+            /*border-end-end-radius: 30px;*/
+            /*border-radius: 5px;*/
+            /*clear: right;*/
+        }
+        /*#scrollUpBox {*/
+        /*    color: white;*/
+        /*    height: 200px;*/
+        /*    padding: 0 15px;*/
+        /*    border: 2px solid #cccccc;*/
+        /*    border-radius: 5px;*/
+        /*    !*box-shadow: 0 0 10px #0000ff;*!*/
+        /*    overflow: hidden;*/
+        /*}*/
     </style>
 </head>
 <body>
     <header>
-        <div class="profile">
-            <img src="Profile_photo.jpg" height="100" style="float: right">
-            <p>Zexi Li</p>
-        </div>
+    <!--        <div class="profile">-->
+<!--            Zexi Li-->
+<!--            <img id="profile" src="Profile_photo.jpg">-->
+<!--        </div>-->
     </header>
-    <main>
-        <br>
-        <br>
-        <br>
-        <p>Hello world!</p>
-        <p>Under construction!</p>
+    <main id="main">
+        <div id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    Shanghai Jiao Tong University - August 2018
+                    <ul>
+                        <li>Undergraduate</li>
+                        <li>Electrical and Computer Engineering</li>
+                        <li>GPA: 3.712 / 4.0</li>
+                        <li>Rank: 10 / 158</li>
+                    </ul>
+                </li>
+                <li>
+                    Hangzhou No.2 High School
+                </li>
+                <li>
+                    Hangzhou Yucai Middle School
+                </li>
+<!--                <li>-->
+<!--                    Yuhuan Huanshan Primary School-->
+<!--                </li>-->
+            </ul>
+        </div>
+        <div id="awards">
+            <h2>Awards</h2>
+            <ul>
+                <li>
+                    First price in the 11-th SJTU Mechanical Innovation Competition - March 2019
+                </li>
+                <li>
+                    LeetCode LCCUP'20 Competition Rank.413 - September 2020
+                </li>
+                <li>
+                    2019-2020 Undergraduate Excellent Scholarship (C-type) - November 2020
+                </li>
+            </ul>
+        </div>
+        <div id="projects">
+            <h2>Projects</h2>
+        </div>
+        <h2 id="life">Experiences</h2>
+        <p class="test">
+            Lorem ipsum dolor sit amet, quo no ipsum postea, vix te feugait consetetur complectitur. Ne mucius reprehendunt vis, facer omnesque et pri, cu per facete inermis molestiae. Mea id quem meliore. Per mucius option deleniti in, ius cu saperet propriae voluptua. Sint lorem appetere te ius, duo at elit facer novum.
+
+            Te vel stet tota utamur, viris forensibus democritum qui in. Sit veritus incorrupte an, his dolorum atomorum dissentiunt ad. Facer splendide ei qui, ea nec velit accusam, cum omnium aperiri patrioque ne. Eros duis causae et per.
+
+            Eos clita oblique sapientem no, ex latine facilis disputando has, in singulis maiestatis efficiendi nam. Sed dicant utamur conceptam ad, audiam convenire cum at. Ut his aeterno delicatissimi. Suas expetendis sit no, labitur eligendi eos ut. Mea no nostrum ponderum. Et est luptatum voluptatibus. Quo choro singulis an, ex nec solum vulputate contentiones.
+
+            Qui adhuc atqui maluisset an. Sale utroque forensibus no vel, tation volutpat eos ut. Vim te iusto deseruisse voluptatibus. Natum dicat scaevola mei cu, ad graece animal scriptorem est, essent fabulas delectus ei vix. Duo noluisse lucilius efficiendi ne. Vel illud accusata ad, sed timeam labores et.
+
+            Vis unum integre efficiendi eu. Vim odio habemus ad, ex veri viderer inimicus sed. Dicam mandamus constituto an vel, id dicta aliquando appellantur nec, id error ornatus est. Eum quaestio comprehensam an.
+            <a href="#">go back to top</a>
+        </p>
     </main>
     <footer>
-
+<!--        Shanghai Jiao Tong University<br>-->
+<!--        Longbin Building (龙宾楼)<br>-->
     </footer>
+    <!-- Notes for learning -->
+    <div>
+        target in &lt a &gt:
+            <ul>
+                <li><b>_self</b>: open the link in current tab</li>
+                <li><b>_blank</b>: open the link in new tab</li>
+            </ul>
+        alt in &lt img &gt:<br>
+            provides a text that describes the image
+    </div>
+
+    <script type="text/javascript">
+        var main = document.getElementById("main")
+        function scrollUp() {
+            main.scrollTop++;
+        }
+        var TIME = 50;
+        var timer = setInterval(scrollUp, TIME);
+    </script>
+    <script>
+        a = document.getElementById("main")
+        // if (a.style.width < "600px")
+        //     a.style.width = "600px"
+    </script>
 </body>
 </html>
