@@ -45,7 +45,7 @@ function getBingImages(imgUrls) {
 	sessionStorage.setItem(indexName, index);
 }
 
-function decryptEmail(encoded) {      
+function decryptEmail(encoded) {
 	var address = atob(encoded);
 	window.location.href = "mailto:" + address;
 }
