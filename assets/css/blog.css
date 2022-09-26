@@ -8067,6 +8067,26 @@ hr {
 }
 
 .btn,
+.blog_navigation__item a {
+  padding: 10px 100px;
+  border: 1px solid #4e97d8;
+  border-radius: 20px;
+  font-size: .9em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: none;
+  color: #4e97d8;
+  -webkit-font-smoothing: antialiased
+}
+
+.btn:hover,
+.blog_navigation__item a:hover {
+  color: #4e97d8;
+  border-color: #4e97d8
+}
+
+
+.btn,
 .navigation__item a {
   padding: 10px 20px;
   border: 1px solid #4e97d8;
@@ -8157,10 +8177,52 @@ nav {
   list-style-type: none
 }
 
+.blog_navigation {
+  display: inline-grid;
+  float: left;
+  position: relative;
+  margin: 0;
+  list-style-type: none
+}
+
 .navigation__item {
   display: inline-block;
   margin: 5px 1px 0 0;
   line-height: 1em
+}
+
+.blog_navigation__item {
+  display: inline-block;
+  margin: 5px 1px 0 0;
+  line-height: 1em
+}
+
+.blog_navigation__item a {
+  display: block;
+  position: relative;
+  border-color: #fff;
+  color: #fff;
+  opacity: .8
+}
+
+.blog_navigation__item_selected a {
+  display: block;
+  position: relative;
+  border-color: rgb(0, 255, 174);
+  color: rgb(0, 255, 174);
+  opacity: .8
+}
+
+.blog_navigation__item a:hover {
+  color: #fff;
+  border-color: #fff;
+  opacity: 1
+}
+
+.blog_navigation__item a:hover {
+  border-color: rgb(0, 225, 174);
+  color: rgb(0, 225, 174);
+  opacity: 1
 }
 
 .navigation__item a {
@@ -8377,6 +8439,11 @@ i {
     width: 100%;
     margin: 0 0 .4em 0
   }
+
+  .blog_navigation__item {
+    width: 100%;
+    margin: 0 0 .4em 0
+  }
 }
 
 @media all and (max-width:340px) {
@@ -8395,6 +8462,12 @@ i {
 
   .btn,
   .navigation__item a {
+    display: block;
+    margin-bottom: .4em
+  }
+
+  .btn,
+  .blog_navigation__item a {
     display: block;
     margin-bottom: .4em
   }
