@@ -8,6 +8,16 @@ body {
   margin: 0
 }
 
+a {
+  color: white;
+  opacity: 0.7;
+}
+
+a:hover {
+  color: white;
+  opacity: 1;
+}
+
 .main_div {
   /* background-color: #FFA500; */
   /* color: #217fd2; */
@@ -31,6 +41,11 @@ body {
   position: fixed;
   left: 0;
   width: 25%;
+  padding-top: 200px;
+  /* padding: 50px 50px; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
   /* transform: translateX(-250px);
       transition: transform 250ms ease-in-out; */
   background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);
@@ -188,4 +203,43 @@ hr {
   position: relative;
   margin: 0;
   list-style-type: none
+}
+
+#navigation li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navi-button {
+  padding: 10px 70px;
+  border: 2px solid white;
+  border-radius: 20px;
+  font-size: .9em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: none;
+  color: white;
+  opacity: 0.7;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 20px;
+  border-style: solid;
+}
+
+.navi-button:hover {
+  opacity: 1;
+}
+
+#sentence {
+  color: white;
+  font-size: 150%;
+  opacity: 0.8;
+}
+
+#nav-portrait {
+  width: 120px;
+  height: 120px;
+}
+
+.round {
+  border-radius: 50%;
 }
