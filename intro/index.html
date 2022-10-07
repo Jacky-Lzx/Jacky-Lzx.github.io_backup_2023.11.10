@@ -11,136 +11,11 @@
   <meta name="author" content="Zexi Li">
   <title>Zexi Li Intro</title>
   <link rel="stylesheet" type="text/css" href="../assets/css/onlinewebfonts.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/vno.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/blog.css">
-  <!-- <link rel="stylesheet" type="text/css" href="../assets/css/vno.css"> -->
   <link rel="stylesheet" type="text/css" href="../assets/css/iconfont.css">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="icon" href="../assets/icons/home_icon.ico">
-  <style>
-    body {
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 12;
-      color: black;
-    }
-
-    #side-nav {
-      height: 100%;
-      position: fixed;
-      left: 0;
-      width: 25%;
-      /* transform: translateX(-250px);
-      transition: transform 250ms ease-in-out; */
-      background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);
-    }
-
-    .main {
-      margin: 0 0 0 25%;
-      display: block;
-      /* height: 100%; */
-      background-image: url('../assets/img/background_2.jpeg');
-      background-repeat: none;
-      background-position: center;
-      background-attachment: fixed;
-    }
-
-    .main-content {
-      position: relative;
-      margin: 0 20px;
-      padding: 10px;
-      background: rgba(255, 255, 255, 0.7);
-      border-radius: 10px;
-      top: 10px;
-    }
-
-    .nav {
-      align-self: center;
-      align-content: center;
-      text-align: center;
-    }
-
-    #navigator {
-      position: fixed;
-      width: 25%;
-      height: 100%;
-      background-color: black;
-    }
-
-    #main-div {
-      /* position: fixed; */
-      /* left: 25%; */
-      margin-left: 25%;
-      min-height: 100%;
-      background-image: url('../assets/img/background_2.jpeg');
-      background-attachment: fixed;
-    }
-
-    #main-panel {
-      position: inherit;
-      top: 10px;
-      margin: 50px 50px;
-      padding: 20px;
-      border-radius: 10px;
-      height: 100%;
-      background: rgba(255, 255, 255, 0.7);
-    }
-
-    #intro-title {
-      border-width: 4px;
-      border-style: dashed;
-      text-align: center;
-      padding: 30px;
-    }
-
-    #intro-self {
-      float: left;
-      /* margin-left: 50px; */
-      margin-left: 25%;
-    }
-
-    #portrait {
-      float: right;
-      /* margin-left: 50px; */
-      margin-right: 25%;
-      /* width: 10px; */
-    }
-
-    .intro-topic {
-      border-width: 4px;
-      /* border-style: dashed; */
-      margin-bottom: 20px;
-    }
-
-    .intro-topic .time {
-      float: right;
-      color: black;
-    }
-
-    .topic-title {
-      font-family: 'Times New Roman', Times, serif;
-      text-transform: uppercase;
-      font-weight: bold;
-    }
-
-    .clearfix:after {
-      content: "020";
-      display: block;
-      height: 0;
-      clear: both;
-      visibility: hidden;
-    }
-
-    .clearfix {
-      /* 触发 hasLayout */
-      zoom: 1;
-    }
-
-    hr {
-      margin-top: 5px;
-      margin-bottom: 10px;
-      border-top: 1px solid black;
-    }
-  </style>
-
 </head>
 
 <body>
@@ -192,53 +67,64 @@
           <li class="navigation__item">
             <a href="https://jacky-lzx.github.io/blog/" class="blog-button" target="_blank">博客</a>
           </li>
-          <!-- <li class="navigation__item">
-                                        <a href="/" class="blog-button" target="_blank">简历</a>
-                                    </li> -->
           <li class="navigation__item">
             <a href="/about" class="about-button">关于</a>
           </li>
         </ul>
       </nav>
     </div>
-    <div class="connect">
-      <nav class="cover-navigation navigation--social">
-        <ul class="navigation">
-          <li class="navigation__item">
-            <a href="https://github.com/Jacky-Lzx" title="github" target="_blank">
-              <i class='social iconfont icon-GitHub'></i>
-              <span class="label">github</span>
-            </a>
-          </li>
-          <li class="navigation__item">
-            <a href="https://leetcode.cn/u/zexi-li/" title="leetcode" target="_blank">
-              <i class='social iconfont icon-leetcode'></i>
-              <span class="label">leetcode</span>
-            </a>
-          </li>
-          <li class="navigation__item">
-            <a href="https://www.zhihu.com/people/liu-hua-qing-45" title="zhihu" target="_blank">
-              <i class='social iconfont icon-zhihu'></i>
-              <span class="label">zhihu</span>
-            </a>
-          </li>
-          <li class="navigation__item">
-            <a href="https://space.bilibili.com/23686471" title="bilibili" target="_blank">
-              <i class='social iconfont icon-bilibili-line'></i>
-              <span class="label">bilibili</span>
-            </a>
-          </li>
-          <li class="navigation__item">
-            <!-- 加密的邮箱地址, 请自行修改, 或者改用下方的明文方式 -->
-            <a href="javascript:decryptEmail('emV4aS1saUBxcS5jb20=');" title="email">
-              <!-- <a href="test@test.com" title="email"> -->
-              <i class='social iconfont icon-email'></i>
-              <span class="label">email</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
+
+    <div class="center">
+      <ul id="navigation">
+        <li>
+          <a href="/intro" class="intro-button">简介</a>
+        </li>
+        <li>
+          <a href="https://jacky-lzx.github.io/blog/" class="blog-button" target="_blank">博客</a>
+        </li>
+        <li>
+          <a href="/about" class="about-button">关于</a>
+        </li>
+      </ul>
     </div>
+
+    <div class="center">
+      <ul id="links">
+        <li>
+          <a href="https://github.com/Jacky-Lzx" title="github" target="_blank">
+            <i class='social iconfont icon-GitHub'></i>
+            <span class="label">Github</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://leetcode.cn/u/zexi-li/" title="leetcode" target="_blank">
+            <i class='social iconfont icon-leetcode'></i>
+            <span class="label">Leetcode</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.zhihu.com/people/liu-hua-qing-45" title="zhihu" target="_blank">
+            <i class='social iconfont icon-zhihu'></i>
+            <span class="label">Zhihu</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://space.bilibili.com/23686471" title="bilibili" target="_blank">
+            <i class='social iconfont icon-bilibili-line'></i>
+            <span class="label">Bilibili</span>
+          </a>
+        </li>
+        <li>
+          <!-- 加密的邮箱地址, 请自行修改, 或者改用下方的明文方式 -->
+          <a href="javascript:decryptEmail('emV4aS1saUBxcS5jb20=');" title="email">
+            <!-- <a href="test@test.com" title="email"> -->
+            <i class='social iconfont icon-email'></i>
+            <span class="label">Email</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
   </div>
 
   <div class="main">
