@@ -17,6 +17,12 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="icon" href="../assets/icons/home_icon.ico">
   <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 12;
+      color: black;
+    }
+
     #side-nav {
       height: 100%;
       position: fixed;
@@ -51,11 +57,94 @@
       align-content: center;
       text-align: center;
     }
+
+    #navigator {
+      position: fixed;
+      width: 25%;
+      height: 100%;
+      background-color: black;
+    }
+
+    #main-div {
+      /* position: fixed; */
+      /* left: 25%; */
+      margin-left: 25%;
+      min-height: 100%;
+      background-image: url('../assets/img/background_2.jpeg');
+      background-attachment: fixed;
+    }
+
+    #main-panel {
+      position: inherit;
+      top: 10px;
+      margin: 50px 50px;
+      padding: 20px;
+      border-radius: 10px;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.7);
+    }
+
+    #intro-title {
+      border-width: 4px;
+      border-style: dashed;
+      text-align: center;
+      padding: 30px;
+    }
+
+    #intro-self {
+      float: left;
+      /* margin-left: 50px; */
+      margin-left: 25%;
+    }
+
+    #portrait {
+      float: right;
+      /* margin-left: 50px; */
+      margin-right: 25%;
+      /* width: 10px; */
+    }
+
+    .intro-topic {
+      border-width: 4px;
+      /* border-style: dashed; */
+      margin-bottom: 20px;
+    }
+
+    .intro-topic .time {
+      float: right;
+      color: black;
+    }
+
+    .topic-title {
+      font-family: 'Times New Roman', Times, serif;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .clearfix:after {
+      content: "020";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden;
+    }
+
+    .clearfix {
+      /* 触发 hasLayout */
+      zoom: 1;
+    }
+
+    hr {
+      margin-top: 5px;
+      margin-bottom: 10px;
+      border-top: 1px solid black;
+    }
   </style>
 
 </head>
 
 <body>
+
   <div id="side-nav">
     <div class="portrait">
       portrait
@@ -72,91 +161,73 @@
       connect
     </div>
   </div>
+
   <div class="main">
     <div class="main-content">
-      Name: Zexi Li
-      <p>Skip to main contentAccessibility help</p>
-      <p>Accessibility feedback</p>
-      <p>Google</p>
-      <p>html 可滚动 文字 显示 窗口</p>
+      <div class="clearfix" id="intro-title">
+        <div id="intro-self">
+          <p> Zexi Li </p>
+          <p> Hangzhou </p>
+          <p> zexi-li@qq.com </p>
+        </div>
+        <div id="portrait">
+          <img src="../assets/img/portrait.jpg" width="200px">
+        </div>
+      </div>
 
-      <p>All</p>
-      <p>ImagesNewsVideosMapsMore</p>
-      <p>Tools</p>
-      <p>About 2,280,000 results (0.51 seconds)</p>
+      <div class="intro-topic">
+        <div class="topic-title">
+          Academic History
+        </div>
+        <hr>
+        <span>Shanghai Jiao Tong University, Shanghai, Minhang</span> <span class="time">August 2018</span>
+        <ul>
+          <li>Degree: Undergraduate</li>
+          <li>Major: Electrical and Computer Engineering</li>
+          <li>GPA: 3.712 / 4.000 (4.0 Last Year)</li>
+          <li>Rank: 10 / 158 (1 Last Year)</li>
+        </ul>
+      </div>
+      <div class="intro-topic">
+        <div class="topic-title">
+          Honors & Rewards
+        </div>
+        <hr>
+        <ul>
+          <li>First price in the 11th SJTU Mechanical Innovation Competition <span class="time">March 2019</span></li>
+          <li>LeetCode LCCUP'20 Competition Rank. 413 <span class="time">September 2020</span></li>
+          <li>2019-2020 Undergraduate Excellent Scholarship <span class="time">November 2020</span></li>
+          <li>2021 12th Lan Qiao Cup Provincial Competition first price (蓝桥杯省赛一等奖)<span class="time">May
+              2021</span></li>
+          <li>2021 12th Lan Qiao Cup National Competition third price (蓝桥杯国赛三等奖)<span class="time">June 2021</span></li>
+          <li>2022 Zhiyuan Honorary PhD Program of SJTU<span class="time">September 2021</span></li>
+          <li>2020-2021 Undergraduate Excellent Scholarship <span class="time">November 2021</span></li>
+          <li>2020-2021 The Sam and Daisy Wu Scholarship of UM-SJTU JI <span class="time">November 2021</span></li>
+          <li>2022 13th Lan Qiao Cup Provincial Competition first price (蓝桥杯省赛一等奖)<span class="time">May
+              2022</span></li>
+          <li>2022 13th Lan Qiao Cup National Competition second price (蓝桥杯国赛二等奖)<span class="time">June 2022</span>
+          </li>
+        </ul>
+      </div>
 
-      <p>HTML如何实现滚动文字- 范仁义 - 博客园https://www.cnblogs.com › Renyi-Fan</p>
-      <p>·</p>
-      <p>Translate this page</p>
-      <p>21 Mar 2019 — HTML如何实现滚动文字一、总结一句话总结：marquee标签，也可以用js和css来 ... 为了显示效果更明显，这里将页面背景设置为黑色，将滚动文字设置为 ...</p>
-
-      <p>HTML+JS实现网站公告信息滚动显示- 一线大码 - 博客园https://www.cnblogs.com › wbxk</p>
-      <p>·</p>
-      <p>Translate this page</p>
-      <p>9 Jan 2017 — setInterval(code,millisec)方法可按照指定的周期（以毫秒计）来调用函数或计算表达式，会不停地调用函数，直到clearInterval() 被调用或窗口被关闭。由
-        ...
-      </p>
-
-      <p>HTML如何实现带有滚动条的文本框 - CSDN博客https://blog.csdn.net › article › details</p>
-      <p>·</p>
-      <p>Translate this page</p>
-      <p>18 May 2020 — HTML中输入无限文字的文本框，可以随鼠标拖动大小 ... 1．overflow内容溢出时的设置(设定被设定对象是否显示滚动条)overflow-x水平方向内容溢出时的 ...</p>
-
-      <p>HTML——设置滚动文字_时光 - CSDN博客https://blog.csdn.net › article › details</p>
-      <p>·</p>
-      <p>Translate this page</p>
-      <p>14 May 2018 — 滚动文字标签——marquee 使用&lt;marquee&gt;标签可以将文字设置为动态滚动的 ... 默认情况下，水平滚动的文字背景与文字同高、与浏览器窗口同宽，使用 ...</p>
-
-      <p>HTML滚动条样式代码及使用技巧 - 编程狮https://www.w3cschool.cn › html › h...</p>
-      <p>·</p>
-      <p>Translate this page</p>
-      <p>21 Apr 2022 — 网页滚动条本身就是浏览器的一部分，使用它可以方便浏览较大的网页， ... 1、​ overflow ​内容溢出时的设置（设定被设定对象是否显示滚动条）</p>
-
-      <p>Untitledhttps://patentimages.storage.googleapis.com › ...</p>
-      <p>的方法, 采用由图形引擎通过窗口控件生成的子. 窗口作为marquee窗口,将待滚动的内容作为子. 窗口的内置页面,除能正常显示文字、图片等內容. 外, 还可对HTML 代码段 ...</p>
-
-      <p>信息https://miaowm5.github.io › page</p>
-      <p>·</p>
-      <p>Translate this page</p>
-      <p>打开一个信息窗口并显示文字。 设置. 角色肖像图: 指定信息窗口内左方显示的肖像图。双击可以打开[选择图像]窗口，在 ...</p>
-
-      <p>JS平滑无缝滚动实现———实现首页广告自动滚动效果（附实例）https://blog.51cto.com › ives</p>
-      <p>·</p>
-      <p>Translate this page</p>
-      <p>28 Jul 2022 — 本文我们实现纯JS方式的滚动广告效果。​​. ​​. 先show一下成品： ... offsetWidth 是对象的可见宽度，包滚动条等边线，会随窗口的显示大小改变。</p>
-
-      <p>python-Tkinter界面组件属性介绍（二） - 伙伴云https://www.huoban.com › news › post</p>
-      <p>·</p>
-      <p>Translate this page</p>
-      <p>29 May 2022 — 多行文字区域,可用来收集(或显示)用户输入的文字(类似HTML 中的textarea) ... 为配合使用canvas, entry, listbox, and
-        text窗口部件的标准滚动条。
-      </p>
-
-      <p>CN1703733A - 能够进行滚动进程的显示屏- Google Patentshttps://patents.google.com › patent</p>
-      <p>·</p>
-      <p>Translate this page</p>
-      <p>于是，用户可以滚动显示，以实现对HTML页面剩余部分的浏览。 ... 如果滚动文档，则通过到窗口中其新位置的大量复制来显示总是保持可视的窗口内容。</p>
-      <p>Related searches</p>
-      <p>Html滚动</p>
-      <p>Marquee标签</p>
-      <p>CSS marquee</p>
-      <p>1</p>
-      <p>2</p>
-      <p>3</p>
-      <p>4</p>
-      <p>5</p>
-      <p>6</p>
-      <p>7</p>
-      <p>8</p>
-      <p>9</p>
-      <p>10</p>
-      <p>Next</p>
-      <p>Hong Kong</p>
-      <p>Shanghai, China - Based on your past activity</p>
-      <p>- Update location</p>
-      <p>HelpSend feedbackPrivacyTerms</p>
-
+      <div class="intro-topic">
+        <div class="topic-title">
+          Skills & Certifications
+        </div>
+        <hr>
+        <div><strong>Computer</strong>: Java, C/C++, Visual Basic, Photoshop, Python, Algorithm.</div>
+        <div><strong>Language</strong>: Chinese, English, Deutsch (a little), Japanese (a little) </div>
+      </div>
+      <div class="intro-topic">
+        <div class="topic-title">
+          Website
+        </div>
+        <hr>
+        <div><strong>LeetCode</strong>: https://leetcode-cn.com/u/zexi-li</div>
+        <div><strong>Github</strong>: https://github.com/Jacky-Lzx</div>
+      </div>
     </div>
+
   </div>
 </body>
 
