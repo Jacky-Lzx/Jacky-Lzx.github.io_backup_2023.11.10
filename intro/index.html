@@ -16,131 +16,65 @@
   <link rel="stylesheet" type="text/css" href="../assets/css/iconfont.css">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="icon" href="../assets/icons/home_icon.ico">
+  <style>
+    #side-nav {
+      height: 100%;
+      position: fixed;
+      left: 0;
+      width: 25%;
+      /* transform: translateX(-250px);
+      transition: transform 250ms ease-in-out; */
+      background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);
+    }
+
+    .main {
+      margin: 0 0 0 25%;
+      display: block;
+      /* height: 100%; */
+      background-image: url('../assets/img/background_2.jpeg');
+      background-repeat: none;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    .main-content {
+      position: relative;
+      margin: 0 20px;
+      padding: 10px;
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 10px;
+      top: 10px;
+    }
+
+    .nav {
+      align-self: center;
+      align-content: center;
+      text-align: center;
+    }
+  </style>
 
 </head>
 
 <body>
-  <span class="mobile btn-mobile-menu">
-    <i class="social iconfont icon-list btn-mobile-menu__icon"></i>
-    <i class="social iconfont icon-angleup btn-mobile-close__icon hidden"></i>
-  </span>
-  <header id="panel" class="panel-cover">
-    <div class="panel-main">
-      <div class="panel-main__inner panel-inverted">
-        <div class="panel-main__content">
-          <div class="ih-item circle effect right_to_left">
-            <a href="#" title="" class="blog-button">
-              <div class="img"><img src="../assets/img/portrait.jpg" alt="img" class="js-avatar iUp profilepic"></div>
-              <div class="info iUp">
-                <div class="info-back">
-                  <h2>
-
-                    Coding
-
-                  </h2>
-                  <p>
-
-                    2022 · 自律
-
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <h1 class="panel-cover__title panel-title iUp">
-            <a href="#" title="Zexi Li Home">Zexi Li</a>
-          </h1>
-          <p class="panel-cover__subtitle panel-subtitle iUp"> Study a hammer </p>
-          <hr class="panel-cover__divider iUp" />
-          <p id="description" class="panel-cover__description iUp">如何得与凉风约, 不共尘沙一并来!
-            <br />
-            <strong>-「中牟道中」</strong>
-          </p>
-          <div class="iUp">
-            <nav class="cover-navigation cover-navigation--primary">
-              <ul class="blog_navigation">
-                <li class="blog_navigation__item_selected blog_navigation__item">
-                  <a href="../intro" class="intro-button">简介</a>
-                </li>
-                <li class="blog_navigation__item">
-                  <a href="https://jacky-lzx.github.io/blog/" class="blog-button">博客</a>
-                </li>
-                <!-- <li class="navigation__item">
-                                        <a href="/" class="blog-button" target="_blank">简历</a>
-                                    </li> -->
-                <li class="blog_navigation__item">
-                  <a href="../about" class="about-button">关于</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="navigation-wrapper iUp">
-            <div class="iUp">
-              <nav class="cover-navigation navigation--social">
-                <ul class="navigation">
-                  <li class="navigation__item">
-                    <a href="https://github.com/Jacky-Lzx" title="github" target="_blank">
-                      <i class='social iconfont icon-GitHub'></i>
-                      <span class="label">github</span>
-                    </a>
-                  </li>
-                  <li class="navigation__item">
-                    <a href="https://leetcode.cn/u/zexi-li/" title="leetcode" target="_blank">
-                      <i class='social iconfont icon-leetcode'></i>
-                      <span class="label">leetcode</span>
-                    </a>
-                  </li>
-                  <li class="navigation__item">
-                    <a href="https://www.zhihu.com/people/liu-hua-qing-45" title="zhihu" target="_blank">
-                      <i class='social iconfont icon-zhihu'></i>
-                      <span class="label">zhihu</span>
-                    </a>
-                  </li>
-                  <li class="navigation__item">
-                    <a href="https://space.bilibili.com/23686471" title="bilibili" target="_blank">
-                      <i class='social iconfont icon-bilibili-line'></i>
-                      <span class="label">bilibili</span>
-                    </a>
-                  </li>
-                  <li class="navigation__item">
-                    <!-- 加密的邮箱地址, 请自行修改, 或者改用下方的明文方式 -->
-                    <a href="javascript:decryptEmail('emV4aS1saUBxcS5jb20=');" title="email">
-                      <!-- <a href="test@test.com" title="email"> -->
-                      <i class='social iconfont icon-email'></i>
-                      <span class="label">email</span>
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="panel-cover--overlay cover-slate"></div>
+  <div id="side-nav">
+    <div class="portrait">
+      portrait
     </div>
-    <!-- <div class="beian iUp">
-            <a class="icp" href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" target="_blank">XXX</a>
-            <a class="gwab" href="http://www.beian.gov.cn/portal/recordQuery" target="_blank">XXX</a>
-        </div> -->
-    <div class="remark iUp">
-      <p class="power">Powered By
-        <a href="https://github.com/features/actions" target="_blank"> GitHub Actions </a>,
-        <a href="https://github.com/dmego/home.github.io" target="_blank"> Dmego </a> And
-        <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>
-      </p>
+    <div class="sentence">
+      sentence
     </div>
-
-  </header>
-  <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
-  <script type="text/javascript" src="../assets/js/main.js"></script>
-  <script type="text/javascript" src="../assets/json/images.json?cb=getBingImages"></script>
-
-
-
-  <div class="main_div" style="background-image: url('../assets/img/background_2.jpeg');">
-    <div style="height: 100%; background: rgba(255, 255, 255, 0.7); ">
-      <!-- TODO: introduction goes here -->
-      <!-- <div style="background: rgba(255, 255, 255, 0.0); background-attachment: fixed;"> -->
+    <div class="nav">
+      <div id="intro">intro</div>
+      <div id="blog">blog</div>
+      <div id="about">about</div>
+    </div>
+    <div class="connect">
+      connect
+    </div>
+  </div>
+  <div class="main">
+    <div class="main-content">
+      Name: Zexi Li
       <p>Skip to main contentAccessibility help</p>
       <p>Accessibility feedback</p>
       <p>Google</p>
@@ -159,7 +93,8 @@
       <p>HTML+JS实现网站公告信息滚动显示- 一线大码 - 博客园https://www.cnblogs.com › wbxk</p>
       <p>·</p>
       <p>Translate this page</p>
-      <p>9 Jan 2017 — setInterval(code,millisec)方法可按照指定的周期（以毫秒计）来调用函数或计算表达式，会不停地调用函数，直到clearInterval() 被调用或窗口被关闭。由 ...
+      <p>9 Jan 2017 — setInterval(code,millisec)方法可按照指定的周期（以毫秒计）来调用函数或计算表达式，会不停地调用函数，直到clearInterval() 被调用或窗口被关闭。由
+        ...
       </p>
 
       <p>HTML如何实现带有滚动条的文本框 - CSDN博客https://blog.csdn.net › article › details</p>
@@ -220,7 +155,7 @@
       <p>Shanghai, China - Based on your past activity</p>
       <p>- Update location</p>
       <p>HelpSend feedbackPrivacyTerms</p>
-      <!-- </div> -->
+
     </div>
   </div>
 </body>
