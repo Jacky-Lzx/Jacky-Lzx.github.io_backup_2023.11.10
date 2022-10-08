@@ -29,6 +29,7 @@ function getBingImages(imgUrls) {
   var index = sessionStorage.getItem(indexName);
   var $panel = $('#panel');
   var $sideNav = $('#side-nav');
+  var $background = $('#home-page');
   if (isNaN(index) || index == 26)
     index = 0;
   else
@@ -45,6 +46,11 @@ function getBingImages(imgUrls) {
     $sideNav.css(
         'background', 'url(\'' + url + '\') center center no-repeat #666');
     $sideNav.css('background-size', 'cover');
+  }
+  if (typeof $background !== 'undefined') {
+    $background.css(
+        'background', 'url(\'' + url + '\') center center no-repeat #666');
+    $background.css('background-size', 'cover');
   }
 
   sessionStorage.setItem(indexName, index);

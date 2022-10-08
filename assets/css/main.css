@@ -1,0 +1,56 @@
+#home-page {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  /* left: 0; */
+  /* width: 20%; */
+}
+
+#home-page .sentence-divider {
+  width: 20%;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#home-page #sentence {
+  font-size: 100%;
+  opacity: 1;
+}
+
+#home-page #navigation {
+  /* display: inline-block; */
+  /* float: left; */
+  /* text-align: center; */
+  position: relative;
+  margin: 0;
+  list-style-type: none
+}
+
+#home-page #navigation li {
+  float: left;
+  margin-left: 5px;
+}
+
+.margin-top {
+  margin-top: 10px;
+}
+
+
+.navi-button {
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: .9em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: none;
+  color: white;
+  opacity: 0.7;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 20px;
+  border-style: solid;
+}
+
+.navi-button:hover {
+  opacity: 1;
+}

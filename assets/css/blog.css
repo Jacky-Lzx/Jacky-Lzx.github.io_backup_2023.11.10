@@ -9,6 +9,7 @@ body {
 }
 
 a {
+  text-decoration: none;
   color: white;
   opacity: 0.7;
 }
@@ -211,13 +212,14 @@ hr {
 #sentence {
   color: white;
   font-size: 150%;
-  /* opacity: 0.8; */
+  opacity: 0.8;
+  font-family: "STKaiti", 'Times New Roman', Times, serif;
 }
 
 #sentence .comment {
   /* padding: auto, 20px; */
   margin-top: 10px;
-  margin-right: 25%;
+  margin-right: 20%;
   text-align: right;
   font-size: 80%;
   color: white;
@@ -237,4 +239,10 @@ hr {
   background: rgba(0, 0, 0, 0.5);
   height: 100%;
   padding-top: 200px;
+}
+
+.sentence-divider {
+  width: 50%;
+  margin: 20px auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.14)
 }
