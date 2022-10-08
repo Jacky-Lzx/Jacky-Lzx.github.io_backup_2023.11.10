@@ -29,12 +29,13 @@ function getBingImages(imgUrls) {
   var index = sessionStorage.getItem(indexName);
   var $panel = $('#panel');
   var $sideNav = $('#side-nav');
-  if (isNaN(index) || index == 7)
+  if (isNaN(index) || index == 26)
     index = 0;
   else
     index++;
   var imgUrl = imgUrls[index];
-  var url = 'https://www.bing.com' + imgUrl;
+  // var url = 'https://www.bing.com' + imgUrl;
+  var url = imgUrl;
   if (typeof $panel !== 'undefined') {
     $panel.css(
         'background', 'url(\'' + url + '\') center center no-repeat #666');

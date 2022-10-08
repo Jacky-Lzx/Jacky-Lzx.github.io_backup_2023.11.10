@@ -29,14 +29,14 @@ body {
   position: fixed;
   left: 0;
   width: 20%;
-  padding-top: 200px;
+  /* padding-top: 200px; */
   /* padding: 50px 50px; */
   /* display: flex;
   align-items: center;
   justify-content: center; */
   /* transform: translateX(-250px);
       transition: transform 250ms ease-in-out; */
-  background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);
+  /* background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%); */
 }
 
 .main {
@@ -90,7 +90,7 @@ body {
 #intro-self {
   float: left;
   /* margin-left: 50px; */
-  margin-top: 30;
+  margin-top: 30px;
   margin-left: 25%;
 }
 
@@ -211,7 +211,7 @@ hr {
 #sentence {
   color: white;
   font-size: 150%;
-  opacity: 0.8;
+  /* opacity: 0.8; */
 }
 
 #sentence .comment {
@@ -221,7 +221,7 @@ hr {
   text-align: right;
   font-size: 80%;
   color: white;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 #nav-portrait {
@@ -231,4 +231,10 @@ hr {
 
 .round {
   border-radius: 50%;
+}
+
+.black-cover {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  padding-top: 200px;
 }

@@ -1,1 +1,30 @@
-getBingImages(["/th?id=OHR.OberbaumBridge_EN-US6324390642_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","/th?id=OHR.BayofBiscay_EN-US8933430968_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","/th?id=OHR.FlamingoTeacher_EN-US8819896781_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","/th?id=OHR.CosmicCliffs_EN-US8727581889_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","/th?id=OHR.Porthuis_EN-US8462686696_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","/th?id=OHR.LotsOBalloons_EN-US8236203600_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","/th?id=OHR.BridalVeilFalls_EN-US8055892423_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","/th?id=OHR.EubalaenaAustralis_EN-US7949014397_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp"])
+// getBingImages(["/th?id=OHR.BayofBiscay_EN-US8933430968_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","/th?id=OHR.FlamingoTeacher_EN-US8819896781_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","/th?id=OHR.CosmicCliffs_EN-US8727581889_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","/th?id=OHR.Porthuis_EN-US8462686696_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","/th?id=OHR.LotsOBalloons_EN-US8236203600_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","/th?id=OHR.BridalVeilFalls_EN-US8055892423_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","/th?id=OHR.EubalaenaAustralis_EN-US7949014397_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","/th?id=OHR.InfiniD_EN-US7855471603_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp"])
+getBingImages([
+  "https://tva3.sinaimg.cn/large/0082KpKqly8h6xsyg28nhj31hc0u03z0.jpg",
+  "https://tva2.sinaimg.cn/large/0082KpKqly8h6xsyimislj31br0u0god.jpg",
+  "https://tva4.sinaimg.cn/large/0082KpKqly8h6xsyloh16j31hc0u0ds4.jpg",
+  "https://tva1.sinaimg.cn/large/0082KpKqly8h6xsyn5zz5j31hc0u0jvg.jpg",
+  "https://tva1.sinaimg.cn/large/0082KpKqly8h6xsypbch0j31hc0u0jyr.jpg",
+  "https://tva2.sinaimg.cn/large/0082KpKqly8h6xsyum14hj31hc0u0anm.jpg",
+  "https://tva4.sinaimg.cn/large/0082KpKqly8h6xsyyurw1j31hc0u00xt.jpg",
+  "https://tva1.sinaimg.cn/large/0082KpKqly8h6xs7z929dj31hc0u00xt.jpg",
+  "https://tva4.sinaimg.cn/large/0082KpKqly8h6xs85asf8j31c00u0n2v.jpg",
+  "https://tva2.sinaimg.cn/large/0082KpKqly8h6xsc3rjcdj31c00u0q4u.jpg",
+  "https://tva3.sinaimg.cn/large/0082KpKqly8h6xsc70vttj31c00u0wom.jpg",
+  "https://tva1.sinaimg.cn/large/0082KpKqly8h6xscbggq5j31hc0u0q8x.jpg",
+  "https://tva2.sinaimg.cn/large/0082KpKqly8h6xscp9qerj31c00u0tjd.jpg",
+  "https://tva3.sinaimg.cn/large/0082KpKqly8h6xsct6p71j31c00u0gm8.jpg",
+  "https://tva1.sinaimg.cn/large/0082KpKqly8h6xsd3treij31c00u07at.jpg",
+  "https://tva2.sinaimg.cn/large/0082KpKqly8h6xsdfctiwj31hc0u0gne.jpg",
+  "https://tva4.sinaimg.cn/large/0082KpKqly8h6xsdi9e7wj31c00u0wil.jpg",
+  "https://tva3.sinaimg.cn/large/0082KpKqly8h6xsdoosi5j31hc0u0dpe.jpg",
+  "https://tva4.sinaimg.cn/large/0082KpKqly8h6xsdwswipj31hc0u0gn6.jpg",
+  "https://tva1.sinaimg.cn/large/0082KpKqly8h6xse1czzzj31c00u0adx.jpg",
+  "https://tva1.sinaimg.cn/large/0082KpKqly8h6xse75o0qj31hc0u0ace.jpg",
+  "https://tva1.sinaimg.cn/large/0082KpKqly8h6xseeb5lpj31hc0u0ahr.jpg",
+  "https://tva4.sinaimg.cn/large/0082KpKqly8h6xsejbirdj31hc0u0qbs.jpg",
+  "https://tva4.sinaimg.cn/large/0082KpKqly8h6xsfmyb9oj31hc0u00v7.jpg",
+  "https://tva4.sinaimg.cn/large/0082KpKqly8h6xsfvu1fpj31c00u045f.jpg",
+  "https://tva4.sinaimg.cn/large/0082KpKqly8h6xsgd13m9j31hc0u0dtc.jpg",
+  "https://tva3.sinaimg.cn/large/0082KpKqly8h6xshc3skpj31c00u018d.jpg"
+])
